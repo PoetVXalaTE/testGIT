@@ -46,4 +46,11 @@ int main() {
         }
         cout << endl;
     }
+
+ for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 2; j++) {
+            cout << setw(4) << a[i][j];
+        }
+        cout << endl;
+    }
 }
